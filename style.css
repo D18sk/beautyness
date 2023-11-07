@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Noto+Sans&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*Убираем линии обводки некоторых браузеров*/
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+} 
+
+body{
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: 0 1%;
+}
+
+
+.sec-1{
+    background-color: #EBF3F5;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.space{
+    background-color: #EBF3F5;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.footer{
+    background-color: #1E2C30;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+.h1{
+    font-family: 'Playfair Display';
+}
+
+
+.p11{
+    font-family: 'Playfair Display';
+}
+
+.ttt{
+    font-family: 'Manrope';
+}
+
+.p15{
+    font-family: 'Manrope';
+}
+
+
+.but10{
+    width: 17%;
+    height: 50px;
+
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Manrope';
+    background: #5C8692;
+    border-radius: 1px;
+    text-align: center;
+}
+
+
+.get{
+    width: 100%;
+    height: 10%;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Manrope';
+    background: #5C8692;
+    border-radius: 1px;
+    text-align: center;
+    
+
+}
+
+.but11{
+    width: 43%;
+    height: 50px;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Manrope';
+    background: #5C8692;
+    border-radius: 1px;
+    text-align: center;
+}
+
+.but12{
+  width: 43%;
+  height: 50px;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Manrope';
+  background: #5C8692;
+  border-radius: 1px;
+  text-align: center;
+}
+
+.card4{
+    background: #EDF5F7;
+
+}
+
+
+@media screen and (max-width:769px){
+  .foott{
+    display: flex;
+    flex-direction: row;
+  }
+  .but12{
+    width: 74%;
+    height: 44px;
+
+  }
+  .but10{
+    width: 24%;
+    height: 50px;
+    font-size: 12px;
+
+
+  }
+   
+}   
+
+
+
+@media screen and (max-width:426px){
+  .foott{
+    display: flex;
+    flex-direction: column;
+  }
+  .but12{
+    width: 79%;
+    height: 45px;
+    font-size: 13px;
+
+  }
+  .but10{
+    width: 44%;
+    height: 50px;
+    font-size: 12px;
+
+
+  }
+  .sss{
+    display: flex;
+    flex-direction: column;
+  }
+   
+}   
+
+
+
+@media screen and (max-width:321px){
+  
+  .but12{
+    width: 79%;
+    height: 36px;
+    font-size: 10px;
+
+  }
+  .but11{
+    font-size: 12px;
+
+  }
+  .but10{
+    width: 49%;
+    height: 47px;
+    font-size: 12px;
+
+
+  }
+   
+}   
+
+
+.tt2{
+  
+    color: #fff;
+    font-family: 'Manrope';
+    background: #5C8692;
+    border-radius: 1px;
+    text-align: center;
+
+}
+
+.tt1{
+    color: #fff;
+    font-family: 'Manrope';
+    background: #6d7070;
+    border-radius: 1px;
+    text-align: center;
+
+}
+
+
